@@ -2,7 +2,7 @@ import os
 import numpy as np
 import shutil
 
-
+# DATA_PATH = "HouseExpo/Dataset_Scale100_SExPE"
 DATA_PATH = "HouseExpo/Dataset_Scale100_SEPE"
 SELLECT_NUM = 50
 SEED = 18
