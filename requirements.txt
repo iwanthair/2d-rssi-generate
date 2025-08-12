@@ -1,0 +1,5 @@
+matplotlib~=3.10.0
+numpy~=2.2.5
+gpytorch~=1.14
+scikit-learn~=1.6.1
+pandas~=2.3.1
