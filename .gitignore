@@ -1,5 +1,7 @@
 __pycache__/
-/HouseExpo/Dataset_Scale100_SExPE/
-/HouseExpo/Dataset_Scale100_SEPE/
+/HouseExpo/Dataset_Scale100_SExPE/train
+/HouseExpo/Dataset_Scale100_SExPE/test
+/HouseExpo/Dataset_Scale100_SEPE/train
+/HouseExpo/Dataset_Scale100_SEPE/test
 /HouseExpo/GroundTruth_Scale100/
 /HouseExpo/HouseExpoPNG/

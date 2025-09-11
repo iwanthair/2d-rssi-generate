@@ -3,7 +3,7 @@ import numpy as np
 import shutil
 
 # DATA_PATH = "HouseExpo/Dataset_Scale100_SExPE"
-DATA_PATH = "HouseExpo/Dataset_Scale100_SEPE"
+DATA_PATH = "HouseExpo/Dataset_Scale100_SExPE"
 SELLECT_NUM = 50
 SEED = 18
 
@@ -33,6 +33,8 @@ if __name__ == "__main__":
     print(f"Selected {len(selected_train_ids)} train ids and {len(selected_test_ids)} test ids.")
 
     # copy the selected ids to the new folder
+    count = 0
+
     for id in selected_train_ids:
         for folder in folders:
             src_file = os.path.join(DATA_PATH, "train", folder, id)
@@ -40,6 +42,9 @@ if __name__ == "__main__":
             # copy the file if it exists
             if os.path.exists(src_file):
                 shutil.copy(src_file, dst_file)
+        count += 1
+    print(f"Copied selected train files to {train_folder}. Total {count} files copied.")
+    count = 0
     for id in selected_test_ids:
         for folder in folders:
             src_file = os.path.join(DATA_PATH, "test", folder, id)
@@ -47,7 +52,8 @@ if __name__ == "__main__":
             # copy the file if it exists
             if os.path.exists(src_file):
                 shutil.copy(src_file, dst_file)
+        count += 1
+    print(f"Copied selected test files to {test_folder}. Total {count} files copied.")
     print(f"Copied selected train files to {train_folder} and test files to {test_folder}.")
-    print(f"Total {len(os.listdir(train_folder))} train files and {len(os.listdir(test_folder))} test files after selection.")
-
+    
     print("Dataset selection completed.")
