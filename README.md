@@ -10,7 +10,7 @@ The project supports two main data sources:
 
 ## Generated Dataset Download
 
-The synthetic and real-world dataset can be downloaded from the link: [Datasets](https://drive.google.com/file/d/1r2SoMyQcptmRTukdkQU8g2BcII5iCZ9C/view?usp=drive_link)
+The synthetic and real-world dataset can be downloaded from the link: https://drive.google.com/file/d/1r2SoMyQcptmRTukdkQU8g2BcII5iCZ9C/view?usp=drive_link
 
 ## File Descriptions
 
