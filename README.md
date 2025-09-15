@@ -8,6 +8,10 @@ The project supports two main data sources:
 1. **HouseExpo Dataset**: Floor plans for large-scale dataset generation
 2. **Real World Data**: Actual indoor environment measurements for validation
 
+## Generated Dataset Download
+
+The synthetic and real-world dataset can be downloaded from the link: [Datasets](https://drive.google.com/file/d/1r2SoMyQcptmRTukdkQU8g2BcII5iCZ9C/view?usp=drive_link)
+
 ## File Descriptions
 
 ### Core Generation Scripts
